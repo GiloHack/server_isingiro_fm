@@ -14,8 +14,8 @@ app.listen(PORT, ()=>{
 })
 
 
-//app.use(cors({origin:"http://localhost:3000"}))
-app.use(cors({origin:"https://isingiro-fm.onrender.com:3001"}))
+app.use(cors({origin:"http://localhost:3000"}))
+//app.use(cors({origin:"https://isingiro-fm.onrender.com:3001"}))
 //middle ware
 
 app.use("/en", MAIN_ROUTE)
