@@ -13,5 +13,14 @@ router.get("/settings", async (req,res)=>{
       res.json(result) 
 })
 
+//programs
+router.get("/programs", (req,res)=>{
+      res.json({
+            data:[
+                  {program_title:"Morning Show", presenter:"Unknown"}
+            ]
+      })
+})
+
 
 module.exports=router
